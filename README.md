@@ -10,8 +10,8 @@ Demo: <https://kemiamu.github.io/docsify-catppuccin/>
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@5/dist/themes/core.min.css">
-<link rel="stylesheet" href="//kemiamu.github.io/docsify-catppuccin/catppuccin-latte.css" media="(prefers-color-scheme: light)">
-<link rel="stylesheet" href="//kemiamu.github.io/docsify-catppuccin/catppuccin-mocha.css" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="//kemiamu.github.io/docsify-catppuccin/latte.css" media="(prefers-color-scheme: light)">
+<link rel="stylesheet" href="//kemiamu.github.io/docsify-catppuccin/mocha.css" media="(prefers-color-scheme: dark)">
 ```
 
 Keep one line for a single flavour.
