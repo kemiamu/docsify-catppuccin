@@ -2,7 +2,7 @@
 
 A [Catppuccin](https://catppuccin.com/palette) colour scheme for [docsify](https://docsify.js.org) v5, in Latte and Mocha.
 
-It is **not a theme**: it only sets CSS variables read by docsify's own core styles, so layout and decoration are left alone. Pair it with any docsify theme. The brand accent is `--theme-color`.
+It only sets CSS variables read by docsify's own core styles, so layout and decoration are left alone. Pair it with any docsify theme. The brand accent is `--theme-color`.
 
 Demo: <https://kemiamu.github.io/docsify-catppuccin/>
 
