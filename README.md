@@ -1,14 +1,10 @@
 # Catppuccin for docsify
 
-[Catppuccin](https://catppuccin.com/palette) 的 **Latte** 与 **Mocha** 两套 flavour，适用于 [docsify](https://docsify.js.org) v5。
+Unofficial [Catppuccin](https://catppuccin.com/palette) Latte / Mocha theme for [docsify](https://docsify.js.org) v5.
 
-非官方移植（unofficial port）。本项目以 MIT 授权发布。
+Demo: <https://kemiamu.github.io/docsify-catppuccin/>
 
-演示页：<https://kemiamu.github.io/docsify-catppuccin/>
-
-## 用法
-
-只需要引入 docsify 官方主题，再按系统偏好加载对应的 flavour：
+## Usage
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@5/dist/themes/core.min.css">
@@ -16,36 +12,32 @@
 <link rel="stylesheet" href="//kemiamu.github.io/docsify-catppuccin/catppuccin-mocha.css" media="(prefers-color-scheme: dark)">
 ```
 
-只想要一种 flavour 就只留对应那一行。
-
-因为是从 GitHub Pages 直出，CDN 是 `kemiamu.github.io` 本身，无需额外构建或发布步骤；想缓存更久也可以走 jsDelivr：
+Drop one line if you only need a single flavour. jsDelivr alternative:
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kemiamu/docsify-catppuccin@main/catppuccin-mocha.css">
 ```
 
-## 自定义
-
-品牌色由一个变量控制，改一行即可换主色：
+## Customize
 
 ```css
 :root {
-  --theme-color: #89b4fa; /* 例如从 mauve 换成 blue */
+  --theme-color: #89b4fa; /* mauve -> blue */
 }
 ```
 
-其余变量含义见两个 CSS 文件内的注释（`--color-bg`、`--link-color`、`--codeblock-*`、`--sidebar-*` 等）。
+See the comments in each CSS file for the rest.
 
-## 文件
+## Files
 
-| 文件 | 说明 |
+| File | Description |
 | --- | --- |
-| `catppuccin-latte.css` | 浅色 flavour |
-| `catppuccin-mocha.css` | 深色 flavour |
-| `index.html` | 演示页（docsify 渲染本 README） |
+| `catppuccin-latte.css` | Light flavour |
+| `catppuccin-mocha.css` | Dark flavour |
+| `index.html` | Demo (renders this README) |
 
-两个文件都只定义 CSS 变量，不含任何布局或装饰覆盖。
+Both files only define CSS variables; no layout or decoration overrides.
 
-## 许可
+## License
 
 [MIT](LICENSE) © kemiamu
