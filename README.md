@@ -1,6 +1,8 @@
 # Catppuccin for docsify
 
-Unofficial [Catppuccin](https://catppuccin.com/palette) Latte / Mocha theme for [docsify](https://docsify.js.org) v5.
+A [Catppuccin](https://catppuccin.com/palette) colour scheme for [docsify](https://docsify.js.org) v5, in Latte and Mocha.
+
+It is **not a theme**: it only sets CSS variables read by docsify's own core styles, so layout and decoration are left alone. Pair it with any docsify theme.
 
 Demo: <https://kemiamu.github.io/docsify-catppuccin/>
 
@@ -12,7 +14,7 @@ Demo: <https://kemiamu.github.io/docsify-catppuccin/>
 <link rel="stylesheet" href="//kemiamu.github.io/docsify-catppuccin/catppuccin-mocha.css" media="(prefers-color-scheme: dark)">
 ```
 
-Drop one line if you only need a single flavour. jsDelivr alternative:
+Keep one line for a single flavour. jsDelivr alternative:
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kemiamu/docsify-catppuccin@main/catppuccin-mocha.css">
@@ -35,8 +37,6 @@ See the comments in each CSS file for the rest.
 | `catppuccin-latte.css` | Light flavour |
 | `catppuccin-mocha.css` | Dark flavour |
 | `index.html` | Demo (renders this README) |
-
-Both files only define CSS variables; no layout or decoration overrides.
 
 ## License
 

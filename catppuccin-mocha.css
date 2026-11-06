@@ -1,5 +1,6 @@
 /*! Catppuccin Mocha for docsify v5 | unofficial MIT port
- * Colour variables only — no layout or decoration overrides.
+ * A colour scheme, not a full theme: it only sets CSS variables consumed by
+ * docsify's own core styles, so layout and decoration stay untouched.
  * Palette: https://catppuccin.com/palette
  * Roles: mauve = brand, green = quotes/sidebar, blue = links,
  * red = inline code, yellow = highlight, lavender = link hover.
